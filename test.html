@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            .tradingview-widget-container{
+                float: right;
+                padding-top: 20px;
+            }
+        </style>
+        <script>
+            function change(){
+                document.getElementById('chart').symbol = "BSE:TCS";
+                alert("changed");
+            }
+        </script>
+    </head>
+
+    <body>
+        
+       <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div id="tradingview_79679"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript" id="chart">
+    new TradingView.widget(
+    {
+    "width": 1000,
+    "height": 500,
+    "symbol": "BSE:RELIANCE",
+    "interval": "D",
+    "timezone": "Etc/UTC",
+    "theme": "dark",
+    "style": "1",
+    "locale": "in",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "allow_symbol_change": true,
+    "container_id": "tradingview_79679"
+  }
+    );
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+
+  <button onclick="change()">change to TCS</button>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: Inter;
+  background-color: #aaa;
+  }
+
+  .ticker{
+      width: -webkit-calc(75%);
+      height: 100px;
+      margin: auto;
+      padding-top: 5px;
+      float: right;
+      padding-right: 30px;
+    
+  }
+  .topnav {
+  overflow: hidden;
+  background-color: #111;
+  height: 100px;
+  padding-left: 10px;
+  padding-right: 2px;
+  border-bottom: 10px #333 solid;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  }
+  .topnav img{
+      height: 80px;
+      width: 200px;
+      padding-left: 40px;  
+      float: left;       
+      padding-top: 10px;
+  }
+  .main > div {
+    background: #aaa;
+    padding-top: 20px;
+}
+.main{
+    display: grid;
+    height: -webkit-calc(100% - 110px);
+    grid-template-columns: 60% 40%;   
+}
+.desc{
+    padding-left: 40px;
+    padding-right: 20px;
+    border-right: 7px #777 solid;
+}
+.desc > p{
+    font-size: 28px;
+}
+.desc > h1{
+    font-size: 50px;
+}
+
+
+
+.suandli{
+    text-align: center;         
+    
+}
+.boxes > input {
+    border-radius: 15px;
+    border-color: #222;
+    text-align: center;
+    border-width: 3px;
+    display: block;
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    
+}
+.su_button{
+    font: #111;
+    background-color: white;
+    display: inline-block;
+    margin: auto;
+    border-radius: 10px;
+    border-width: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.li_button{
+    background-color: #111;
+    color: white;
+    display: inline-block;
+    margin: auto;
+    border-radius: 10px;
+    border-width: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.or{
+    width: 60px;
+    height: 20px;
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 20px;
+    
+}
+.or > hr{
+    border-radius: 15px;
+    background-color: #333;
+    height: 2px;
+    
+}
+.buttons{
+    margin: auto;
+}
+.time{
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+}
+.login_welcome > p{
+    font-family: Inter;
+    text-align: center;
+    font-size: 40px;
+}
+#time{
+    display: inline-block;
+}
+#status{
+    display: inline-block;
+}
+.trade{
+    font-size: 20px;
+}
